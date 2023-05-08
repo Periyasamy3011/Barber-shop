@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's saloon</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <span><a href="#">Menz saloon</a></span>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">pages</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#"><i class='bx bx-phone'></i>123-456-7890</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page1-container">
+        <div class="text-content">
+            <h6>Classic refuge haircuts and shaves</h6>
+            <h1>our hair styles <br><span>enhances your smile</span></h1>
+            <input type="button" value="book now">
+        </div>
+        <div class="barber-img">
+            <img src="./pngwing.com.png" alt="Barber men" width="500px" height="500px">
+        </div>
+    </div>
+    <div class="page2" id="service">
+        <div class="head">
+            <h2>popular services</h2>
+            <h6>a wide range of men grooming services under one roof</h6>
+        </div>
+        <div class="service-container">
+            <div class="service">
+                <img src="./scisser.png" alt="" width="80px" height="80px">
+                <h4 class="h4">Hair styling</h4>
+                <p>Get teh best from your thick hair by <br>choosing a great style and using the <br>right products for thr style your'e after.</p>
+            </div>
+            <div class="service">
+                <img src="./beard drim.png" alt="" width="80px" height="80px">
+                <h4 class="h4">Beard trim</h4>
+                <p>Every men wnats to grow out beard and <br>see just out of curiostly how he looks.if <br>this is you. 
+                    then Welcome to the club.</p>
+            </div>
+            <div class="service">
+                <img src="./hair dryer.png" alt="" width="80px" height="80px">
+                <h4 class="h4">hair color</h4>
+                <p>Color is an underutlized way of adding<br>a unique style and aesthetic appear to <br>your hair We are here for you.
+                </p>
+            </div>
+            <div class="service">
+                <img src="./trimmer.png" alt="" width="80px" height="80px">
+                <h4 class="h4 trim">Cleansing facial</h4>
+                <p>If you're washing your face with bar<br>Soap and water, then it's time to step <br>upyour skincare game.</p>
+            </div>
+        </div>
+    </div>
+    <div class="page3">
+        <div class="head">
+            <h2>Expert stylets</h2>
+            <h6>Our stylets offer traditional and contemporary services along with our very own treatment</h6>
+        </div>
+
+        <div class="stylists">
+            <div class="person">
+                <div class="image">
+                    <img src="./men2.png" alt="" width="300" height="300">
+                </div>
+                <div class="details">
+                    <h2>Paul steels</h2>
+                    <h6>Master baber & color expert</h6>
+                </div>
+            </div>
+            <div class="person">
+                <div class="image">
+                    <img src="./men1.png" alt="" width="300" height="300">
+                </div>
+                <div class="details">
+                    <h2>Sean dick</h2>
+                    <h6>Master baber, shaving & beard </h6>
+                </div>
+            </div>
+            <div class="person">
+                <div class="image">
+                    <img src="./men3.png" alt="" width="300" height="300">
+                </div>
+                <div class="details">
+                    <h2>Paul dos reis</h2>
+                    <h6>Master baber &Restyle artist</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page4">
+        <div class="head">
+            <h2>We are available</h2>
+            <h6>Decicated to providing excelence in our service</h6>
+        </div> 
+        <div class="container">
+            <!-------- booking section-------->
+            <div class="booking">
+                <div class="time open">
+                    <h4>OPENING TIME :</h4>
+                    <div class="day">
+                        <div class="day1">
+                            <p>Monday and wednesday</p>
+                            <p>Friday and saturday</p>
+                        </div>
+                        <div class="day2">
+                            <p>07.00 am - 10.00 pm</p>
+                            <p>12.00 am - 10.30 pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="time close">
+                    <h4>Leave Day :</h4>
+                    <div class="day">
+                        <div class="day1">
+                            <p> 3rd Sunday at every month</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <!-------- booking section-------->
+            <div class="form">
+                <form>
+                    <div class="booking-form">
+                        <div class="date">
+                            <label for="date">Booking date</label>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div class="time">
+                            <label for="time">Booking Time</label>
+                            <input type="time" name="time" id="time">
+                        </div>
+                    </div>
+
+                    <div class="booking-form">
+                        <div class="service">
+                            <label for="service">Service</label>
+                            <select>
+                                <option value="Haircut">Haircut</option>
+                                <option value="Haircolor">Haircolor</option>
+                            </select>
+                        </div>
+                        <div class="stylist">
+                            <label for="Stylist">Stylist</label>
+                            <select>
+                                <option value="Paul steels">Paul steels</option>
+                                <option value="Sean dick">Sean dick</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="booking-form">
+                        <div class="name">
+                            <label for="Name">Name</label>
+                            <input type="text" name="text" id="text" placeholder="James">
+                        </div>
+                        <div class="number">
+                            <label for="phone">Phone</label>
+                            <input type="text" name="text" id="text" placeholder="123-456-7891">
+                        </div>
+                    </div>
+                    <div class="booking-form">
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="James123@gmail.com">
+                        </div>
+                    </div>
+                    <div class="booking-form">
+                        <div class="btn">
+                           <button type="submit" id="btn">Book now</button>
+                        </div>
+                    </div>
+                </form>
+
+
+
+
+            </div>
+        
+        
+        
+        
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,371 @@
+
+
+    /* #f59404 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-bottom: 1px solid black;
+    box-shadow:0  0 10px whitesmoke ;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+nav .logo{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Bruno Ace SC', cursive;
+    cursor: pointer;
+}
+nav .logo a{
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .nav-bar ul{
+    display: flex;
+}
+nav .nav-bar a{
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .nav-bar li a:hover{
+    color: #f59404;
+}
+
+.page1-container{
+    background-color: black;
+    padding-top:100px;
+    color: white;
+    height: 620px;
+    text-transform: uppercase;
+}
+
+.page1-container .text-content{
+    float: left;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.page1-container .text-content h6{
+    font-size: 16px;
+}
+.page1-container .text-content h1{
+    font-size: 45px;
+}
+.page1-container .text-content h1 span{
+    color: #f59404;
+}
+.page1-container .text-content input{
+    background-color: transparent;
+    border-color: #f59404;
+    color:#f59404;
+    padding: 5px;
+    text-transform: capitalize;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.page1-container .text-content input:hover{
+    border-color: greenyellow;
+    color: greenyellow;
+}
+.page1-container .barber-img{
+    float: right;
+    padding-right: 5%;
+}
+
+.page2{
+    background-color: rgba(0, 0, 0, 0.956);
+    color: white;
+    width: 100%;
+    height: 600px;
+}
+
+.page2 .head{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.page2 .head >h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #f59404;
+
+}
+.page2 .head>h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.page2 .service-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 40px;
+}
+.page2 .service-container img{
+    border: 2px solid #f59404;
+    padding: 10px 5px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+.page2 .service-container .h4{
+    margin-left: 20%;
+    margin-bottom: 10%;
+    color: #f59404;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.page2 .service-container p{
+    text-align: center;
+    text-transform: capitalize;
+    width: 300px;
+    line-height: 1.5rem;
+} 
+
+
+.page3{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 600px;
+
+}
+.page3 .head{
+    width: 100%;
+    padding-top: 80px;
+}
+
+
+.page3 .head >h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #f59404;
+
+}
+.page3 .head>h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.page3 .stylists{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3% 0; 
+}
+
+.page3 .stylists .person{
+    border: 1px solid gray;
+}
+.page3 .stylists .person .image{
+    background-color: rgba(128, 128, 128, 0.178);
+    border-bottom: 1px solid gray;
+}
+.page3 .stylists .person .details{
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+.page3 .stylists .person .details h6{
+    font-size: 13px;
+    color: #f59404;
+    text-transform: lowercase;
+}
+.page4{
+    background-color: rgba(0, 0, 0, 0.956);
+    color: white;
+    width: 100%;
+    height: 600px;
+}
+
+.page4 .head{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.page4 .container{
+    display: flex;
+}
+
+.page4 .head >h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #f59404;
+
+}
+.page4 .head>h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page4 .booking{
+    width: 500px;
+    height: 400px;
+    padding: 50px 10px;
+}
+.page4 .booking .time{
+    padding: 20px ;
+}
+.page4 .booking .time h4{
+    font-size: 1.5em;
+    color: #f59404;
+}
+.page4 .booking .time .day{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.page4 .booking .time .day2{
+    padding-left: 80PX;
+}
+
+.page4 form .book .date-time{
+    display: flex;
+}
+.page4 .form{
+    margin-top: 2%;
+}
+
+.page4 .form form label{
+    font-size: 20px;
+    color: #f59404;
+
+}
+.page4 .form form input,select,button{
+    border: 1px solid white ;
+    background-color: transparent;
+    padding: 10px 10px;
+    color: white;
+    font-size: 16px;
+    display: block;
+    width: 200px;
+
+}
+.page4 .form form #email{
+    width: 430px;
+}
+.page4 .form form #btn{
+    width: 430px;
+    color: #f59404;
+    cursor: pointer;
+}
+.page4 .form .booking-form{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding: 10px;
+}
+
+
+
+
+/* 
+
+@media (max-width :1200px){
+    nav{
+        width: 100%;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .page1-container .text-content{
+        padding-left: 5%;
+    }
+    .page1-container .text-content h6{
+        font-size: 16px;
+    }
+    .page1-container .text-content h1{
+        font-size: 30px;
+    }
+    .barber-img img{
+        width: 400px;
+        height: 400px;
+    }
+    .page2 .service-container .h4{
+        margin-left: 22%;
+        font-size: 16px;
+    }
+    .page2 .service-container p{
+       font-size: 12px;
+    }
+} */
+
+@media (max-width :1100px){
+    nav{
+        width: 100%;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .page1-container .text-content{
+        padding-left: 5%;
+    }
+    .page1-container .text-content h6{
+        font-size: 16px;
+    }
+    .page1-container .text-content h1{
+        font-size: 30px;
+    }
+    .barber-img img{
+        width: 400px;
+        height: 400px;
+    }
+    .page2 .service-container .h4{
+        margin-left: 22%;
+        font-size: 16px;
+    }
+    .page2 .service-container p{
+       font-size: 12px;
+    }
+    
+}
